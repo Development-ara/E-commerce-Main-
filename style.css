@@ -316,7 +316,7 @@ body {
 .b1{
   color: black;
   position: absolute;
-  top: 170%;
+  top: 165%;
   left: 15%;
   transform: translateY(-50%);
   z-index: 2;
@@ -325,7 +325,7 @@ body {
 .b5{
   font-size: 50px;
   margin: 10px 0 30px;
-  line-height: 50px;
+  line-height: 60px;
 }
 .b6{
   color: var(--secondary-color);
@@ -339,6 +339,7 @@ body {
   outline: none;
   cursor: pointer;
   background-color: rgb(225, 225, 225);
+  margin-top: 20px;
 }
 .b3{
   color: #fbfcfd;
@@ -349,4 +350,5 @@ body {
   outline: none;
   cursor: pointer;
   background-color: rgb(88, 88, 88);
+  margin-top: 20px;
 }
