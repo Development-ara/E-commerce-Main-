@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="logo"><img class="nav-logo" src="/Images/image.png"></div>
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li class="dropdown">
+                <a href="#">Categories</a>
+                <!-- <ul class="dropdown-content">
+                  <li><a href="#">Category 1</a></li>
+                  <li><a href="#">Category 2</a></li>
+                  <li><a href="#">Category 3</a></li>
+                </ul> -->
+              </li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <div class="login-signup">
+                <a href="#">Login/Sign Up</a>
+              </div>
+              <div class="cart">
+                <a href="#">Cart (0)</a>
+              </div>
+            </ul>
+            <div class="nav-right">
+              <div class="search-bar">
+                <input type="text" placeholder="Search products" />
+                <button class="search1">Search</button>
+            </div>
+        </div>
+    </nav>
+        <!--Images-->
+        <nav class="a1">
+          <ul class="a2">
+              <li class="a3"><img src="/Images/IMG-20240929-WA0012.jpg" alt="" class="a4"><br>Top Offers</li>
+              <li class="a3"><img src="/Images/IMG-20240929-WA0010.jpg" alt="" class="a4"><br>Mobiles</li>
+              <li class="a3"><img src="/Images/IMG-20240929-WA0016.jpg" alt="" class="a4"><br>Electronics</li>
+              <li class="a3"><img src="/Images/IMG-20240929-WA0015.jpg" alt="" class="a4"><br>Fashion</li>
+              <li class="a3"><img src="/Images/IMG-20240929-WA0014.jpg" alt="" class="a4"><br>Beauty</li>
+              <li class="a3"><img src="/Images/IMG-20240929-WA0013.jpg" alt="" class="a4"><br>Kitchen</li>
+              <li class="a3"><img src="Images/IMG-20240929-WA0011.jpg" alt="" class="a4"><br>Furniture</li>
+              <li class="a3"><img src="/Images/travel-website-design-and-development.jpg" alt="" class="a4"><br>Travel</li>
+              <li class="a3"><img src="/Images/668be1eddf76affd65b85734_14 - Is starting a grocery E-commerce Hero.jpg" alt="" class="a4"><br>Grocery</li>
+          </ul>
+      </nav>
+      
+
+    <!--Tittle-->
+    <div class="tittle-1">
+      <h1 class="tittle-2">Deals and Offers</h1>
+    </div>
+    
+    <!-- Image slider -->
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide active">
+          <img src="/Images/shopping-time-banner-with-realistic-map-cart-gift-bags-vector-illustration_548887-120.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+          <img src="/Images/9766547.jpg" alt="Slide 2">
+        </div>
+        <div class="slide">
+          <img src="/Images/7886375.jpg" alt="Slide 3">
+        </div>
+        <div class="slide">
+          <img src="/Images/9766547.jpg" alt="Slide 4">
+        </div>
+        <div class="slide">
+          <img src="/Images/7886375.jpg" alt="Slide 5">
+        </div>
+      </div>
+    
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+    
+      <div class="dots">
+        <span class="dot active" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+              <!--Dropdown-->
+              <div class="explore">
+                <div class="component1">
+                    <button class="dropbtn">Laptops</button>
+                    <div class="component1-content">
+                        <a href="#">All Laptops</a>
+                        <a href="#">Gaming Laptops</a>
+                        <a href="#">Business Laptops</a>
+                        <a href="#">2-in-1 Laptops</a>
+                        <a href="#">Ultrabooks</a>
+                    </div>
+                </div>
+                <div class="component1">
+                    <button class="dropbtn">Smartphones</button>
+                    <div class="component1-content">
+                        <a href="#">All Smartphones</a>
+                        <a href="#">Android Phones</a>
+                        <a href="#">iPhones</a>
+                        <a href="#">Gaming Phones</a>
+                        <a href="#">5G Phones</a>
+                    </div>
+                </div>
+                <div class="component1">
+                    <button class="dropbtn">Tablets</button>
+                    <div class="component1-content">
+                        <a href="#">All Tablets</a>
+                        <a href="#">Android Tablets</a>
+                        <a href="#">iPads</a>
+                        <a href="#">Windows Tablets</a>
+                        <a href="#">Kids Tablets</a>
+                    </div>
+                </div>
+                <div class="component1">
+                    <button class="dropbtn">Cameras</button>
+                    <div class="component1-content">
+                        <a href="#">All Cameras</a>
+                        <a href="#">DSLR Cameras</a>
+                        <a href="#">Mirrorless Cameras</a>
+                        <a href="#">Action Cameras</a>
+                        <a href="#">Instant Cameras</a>
+                    </div>
+                </div>
+                <div class="component1">
+                    <button class="dropbtn">Accessories</button>
+                    <div class="component1-content">
+                        <a href="#">Headphones</a>
+                        <a href="#">Chargers</a>
+                        <a href="#">Memory Cards</a>
+                        <a href="#">Power Banks</a>
+                        <a href="#">Cables & Adapters</a>
+                    </div>
+                </div>
+            </div>
+       
+            <!--Landing Page-->
+            <div class="b4">
+              <div class="b1">
+                  <small>Welcome to website</small>
+                  <h1 class="b5">ONLINE <span class="b6">SHOPPING</span></h1>
+                  <P>Building successful product is challenge. I am highly energetic in user<br>experience design, interface
+                      and web development Lorem ipsum dolor<br>sit amet consectetur adipisicing elit. Laborum, nam voluptas, dolorem</P>
+                  <button class="b2" type="button">Shop Now</button>
+                  <button class="b3" type="button">Get a Offer</button>
+              </div></div>
+                     <!--Ratings-->
+      <div class="Ratings-website">
+        <div class="rate-1"><a href="/Sub-Folder/Get-Subscription.html">Subscription</a></div>
+        <div class="rate-1"><a href="/Sub-Folder/Rate-star.html">Rate Us</a></div>
+      </div>
+        </body>        
+    <script src="/scipt.js"></script>
+</body>
+</html>
