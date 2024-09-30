@@ -520,3 +520,15 @@ footer {
       grid-template-columns: 1fr;
   }
 }
+@media screen and (max-width: 600px)
+{
+  .b1{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: #200093;
+  }
+}
